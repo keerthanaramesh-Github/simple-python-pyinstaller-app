@@ -50,7 +50,8 @@ pipeline {
             }
         }
     }
-}pipeline {
+}
+pipeline {
     agent none 
     stages {
         stage('Build') { 
